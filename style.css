@@ -568,7 +568,8 @@ textarea {
     width: 100%;
     position: relative;
 }
-
+.pointer { position: absolute; top: 80px; left: 0px;
+}
 .address-box {
     background-color: #f1b051;
     width: 300px;
@@ -675,4 +676,6 @@ textarea {
     .about-container {
         margin-top: 0px;
     }
+}
+.pointer { position: absolute; top: 80px; left: 10px;
 }
